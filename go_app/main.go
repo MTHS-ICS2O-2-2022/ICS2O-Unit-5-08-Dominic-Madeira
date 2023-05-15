@@ -27,8 +27,7 @@ func main() {
 	fmt.Println()
 
 	// process
-	var remainder int = numberA
-	
+	remainder := numberA
 	for remainder >= numberB {
 		remainder -= numberB
 		counter++
